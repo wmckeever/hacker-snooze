@@ -7,7 +7,9 @@ But what is Hacker News? _"Hacker News is a social news website focusing on comp
 entrepreneurship. It is run by Paul Graham's investment fund and startup incubator, 
 Y Combinator."_ - Wikipedia
 
-The documentation for this API is available here: https://github.com/HackerNews/API#items
+**The documentation for the Hacker News API is available here: https://github.com/HackerNews/API**.
+
+A great first step in tackling this project would be to read through the documentation starting at the "Items" section.
 
 ## Requirements
 
