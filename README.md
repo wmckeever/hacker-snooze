@@ -121,12 +121,13 @@ If you see an array of story IDs being logged- great! It's working.
 #### 5. Getting each story's details
 
 At this point, you should have a place in your code where you have an array of
-story IDs. Now what we need to do is loop through that array of IDs, and for each
-ID, make an API request to fetch the details of that story. For now, just `console.log`
-the details of each story upon retrieving them.
+story IDs. Now, what we need to do is loop through that array of IDs, and for each
+ID, make an API request to fetch the details of that story. 
 
-To do this you'll use a different API route than the one you used to fetch the 
-top story IDs.
+For now, just `console.log` the details of each story upon retrieving them.
+
+To get the details of a story from its ID, you'll need to make another API request
+to the endpoint that you found that gives you a story's details from its ID.
 
 Your code may look something like this:
 
@@ -165,15 +166,18 @@ After doing this, you should have a working Hacker News clone!
 
 ## Stretch Goals
 
-#### Pagination
-
-What if the reader wants to see the next page of stories? Add pagination to your
-application! Add a 'Next' button that when clicked will grab the next 200 stories.
-To do this you'll need to review the API documentation to see how this could be
-possible.
-
 #### Comments
 
 Add a button to each story "View comments". When clicked, a section below the
 story should appear that contains the story's comments. Once again, you'll need
 to review the API documentation to see how this could be done.
+
+#### Tab Layout
+
+We've got stories, great! But what about the other tabs on HackerNews (ask, show, jobs).
+Lets add the "ask" section. These are essentially a different set of stories that are all
+questions.
+
+Add two buttons in the header of your page, "stories" and "ask". Clicking between them
+should toggle your page between showing the top stories and the top "ask" stories (available
+at a different API endpoint).
