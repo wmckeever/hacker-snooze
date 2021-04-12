@@ -13,10 +13,12 @@ A great first step in tackling this project would be to read through the documen
 
 ## Requirements
 
-* Your website loads the 200 current top stories on Hacker News and displays their titles
+* Your website loads at least the 100 current top stories on Hacker News and displays their titles
 on the page
 
 * Each story's title should be a link to the story's URL
+
+* Adjacent to the story's title, the story's score, number of comments, and author's username should be visible
 
 * Your site should look a little nicer than the real Hacker News (you could use Bootstrap for this)
 
