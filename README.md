@@ -3,9 +3,9 @@
 In this project, you'll be re-creating part of the website 
 [Hacker News](https://news.ycombinator.com/) using the Hacker News API.
 
-But what is Hacker News? "Hacker News is a social news website focusing on computer science and 
+But what is Hacker News? _"Hacker News is a social news website focusing on computer science and 
 entrepreneurship. It is run by Paul Graham's investment fund and startup incubator, 
-Y Combinator." - Wikipedia
+Y Combinator."_ - Wikipedia
 
 The documentation for this API is available here: https://github.com/HackerNews/API#items
 
