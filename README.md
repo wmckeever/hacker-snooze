@@ -9,7 +9,7 @@ Y Combinator."_ - Wikipedia
 
 **The documentation for the Hacker News API is available here: https://github.com/HackerNews/API**.
 
-A great first step in tackling this project would be to read through the documentation starting at the "Items" section.
+A great first step in tackling this project would be to read through the documentation starting at the "Design" section.
 
 ## Requirements
 
