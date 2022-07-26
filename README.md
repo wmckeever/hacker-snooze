@@ -134,7 +134,7 @@ Your code may look something like this:
 ```javascript
 
 fetch( ... )
-    .then((data) => data.json())
+    .then((response) => response.json())
     .then((storyIds) => {
 
         // TODO:
