@@ -32,7 +32,8 @@ To start out, think out how you want your version of the site to look. At a mini
 this base layout should include a header with a title as well as a place for stories.
 
 In your HTML and CSS, add these elements. If you want, check out this site to
-browse popular color palettes for your design: https://coolors.co/palettes/popular
+browse popular color palettes for your design: https://coolors.co/palettes/popular 
+(use #color-code so #2a9d8f for example)
 
 This is a good time to fulfill the "at least one CSS media query" requirement. Make
 some CSS rule that changes the look of the page (font size?) at some screen width break 
