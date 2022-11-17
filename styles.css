@@ -15,11 +15,10 @@ h1 {
   
 }
 
-
+/* Stories Section */
 #news-stories{
   font-size: x-large;
-  
-  line-height: 32pt;
+    line-height: 28pt;
 }
 
 .parent{
@@ -29,8 +28,16 @@ h1 {
 
 .child{
   color: #14213D;
+  font-size: large;
+
 }
 
+a{
+  color:#FF6D00
+}
+a :hover {
+  color:#14213D
+}
 
 
 @media screen and (max-width: 700px){
