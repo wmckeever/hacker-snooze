@@ -1,0 +1,43 @@
+
+#headerImage{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #FF6D00;
+  
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.navbar-bottom{
+  height: 5px;
+  
+}
+
+
+#news-stories{
+  font-size: x-large;
+  
+  line-height: 32pt;
+}
+
+.parent{
+  font-weight: bold;
+  color: #FF6D00;
+}
+
+.child{
+  color: #14213D;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+  .main-containerDiv {
+  
+  flex-direction: column;
+  }
+}
+
